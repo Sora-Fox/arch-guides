@@ -1,4 +1,4 @@
-
+```sh
 # ┌────────────────────┬───────────────┬──────────────────┐
 # │     Partition      │     Size      │       Type       │
 # ├────────────────────┼───────────────┼──────────────────┤
@@ -8,6 +8,7 @@
 
 pvcreate /dev/nvme0n1p2
 vgcreate main /dev/nvme0n1p2
+#   can be any name instead of “main”
 lvcreate -L 50G -n root main
 lvcreate -L 16G -n swap main
 lvcreate -L 50G -n home main
@@ -44,4 +45,4 @@ exit
 umount -R /mnt
 swapoff -a
 reboot
-
+```

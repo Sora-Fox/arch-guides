@@ -1,3 +1,4 @@
+```sh
 systemctl enable NetworkManager
 systemctl start NetworkManager
 
@@ -23,9 +24,9 @@ pacman -S \
     xorg xorg-server xorg-xinit \
     alsa-utils pulseaudio pavucontrol \
     telegram-desktop firefox qutebrowser tor tor-browser \
-    alacritty zsh ranger bat eza htop btop fastfetch \
-    neovim clang llvm cmake git valgrind gtest boost python nodejs \
+    alacritty zsh ranger bat eza ripgrep htop btop fastfetch \
+    vim vi neovim clang llvm cmake git valgrind gtest boost python nodejs \
     docker qemu qemu-kvm virt-manager libvirt \
     gvfs gvfs-mtp tlp \
     libreoffice-fresh mpv keepassxc nemo
-
+```
