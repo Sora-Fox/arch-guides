@@ -26,8 +26,8 @@ lvcreate -L 50G -n root main
 lvcreate -L 16G -n swap main
 lvcreate -L 50G -n home main
 
-mkfs.vfat /dev/nvme0n1p1
-mkfs.ext4 /dev/nvme0n1p2
+mkfs.vfat -F 32 /dev/nvme0n1p1
+mkfs.ext4 -T small /dev/nvme0n1p2
 mkfs.ext4 /dev/main/root
 mkfs.ext4 /dev/main/home
 mkswap    /dev/main/swap
