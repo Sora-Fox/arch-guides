@@ -27,7 +27,7 @@ EDITOR=vim visudo
 pacman -S \
     xorg xorg-server xorg-xinit \
     alsa-utils pulseaudio pavucontrol obs-studio \
-    telegram-desktop firefox qutebrowser tor tor-browser \
+    telegram-desktop firefox qutebrowser tor \
     alacritty zsh ranger bat eza ripgrep htop btop fastfetch \
     vim vi neovim clang llvm cmake git valgrind python nodejs npm \
     docker qemu qemu-kvm virt-manager libvirt \
