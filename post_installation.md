@@ -29,7 +29,7 @@ pacman -S \
     alsa-utils pulseaudio pavucontrol obs-studio \
     telegram-desktop firefox qutebrowser tor \
     alacritty zsh ranger bat eza ripgrep htop btop fastfetch \
-    vim vi neovim clang llvm cmake git valgrind python nodejs npm \
+    vim vi neovim clang llvm make cmake git valgrind python nodejs npm gdb ldb glibc libc++ lld nasm fasm\
     docker qemu qemu-kvm virt-manager libvirt \
     gvfs gvfs-mtp tlp \
     libreoffice-fresh mpv keepassxc nemo \
