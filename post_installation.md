@@ -41,4 +41,14 @@ git clone https://git.suckless.org/dmenu
 git clone https://git.suckless.org/slstatus
 
 # Backup LUKS header (if using encryption)
+
+systemctl --user enable --now pipewire
+# must run without sudo
+
+sudo vim /etc/xdg/reflector/reflector.conf
+udo systemctl enable reflector.timer
+sudo systemctl start reflector.timer
+
+
+
 ```

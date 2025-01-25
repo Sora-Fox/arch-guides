@@ -44,13 +44,10 @@ gnome-themes-extra
 linux
 linux-firmware
 sof-firmware
-xf86-video-intel
-xf86-video-vesa
 intel-compute-runtime
 intel-media-driver
 vulkan-intel
 intel-ucode
-mesa-utils
 alsa-utils
 
 base
