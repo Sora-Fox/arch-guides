@@ -39,6 +39,12 @@ sudo vim /etc/xdg/reflector/reflector.conf
 udo systemctl enable reflector.timer
 sudo systemctl start reflector.timer
 
+# sudo pacman -S terminus-font
+# ls /usr/share/kbd/consolefonts/
+sudo vim /etc/vconsole.conf
+add FONT=ter-124b
 
-
+sudo grub-mkfont -o /boot/grub/fonts/dejavu-sans-mono.pf2 -s 22 DejaVuSansMono.ttf
+echo "GRUB_FONT=/boot/grub/dejavu-sans-mono.pf2" | sudo tee -a /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
