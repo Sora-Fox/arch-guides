@@ -8,10 +8,9 @@ boost
 brightnessctl
 btop
 clang
-clipcat
 cmake
 cryptsetup
-ctags
+diodon
 efibootmgr
 eza
 fastfetch
@@ -19,6 +18,7 @@ feh
 firefox
 flameshot
 git
+gnome-themes-extra
 grub
 intel-ucode
 keepassxc
@@ -52,12 +52,11 @@ tokei
 unzip
 valgrind
 vim
-wireplumber
 xclip
 xorg-server
 xorg-setxkbmap
 xorg-xinit
 xorg-xinput
-xorg-xprop
 xorg-xset
+xorg-xsetroot
 zsh
